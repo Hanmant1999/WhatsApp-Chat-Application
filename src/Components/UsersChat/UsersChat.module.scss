@@ -1,0 +1,15 @@
+.userlist{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height:60px;
+    flex-wrap: nowrap;
+    padding: 10px 20px;
+    background-color: cadetblue;
+    align-items: center;
+}
+
+.profimage{
+    width:60px;
+    height:100%;
+}

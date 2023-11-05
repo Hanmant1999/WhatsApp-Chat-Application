@@ -1,0 +1,35 @@
+
+
+.chatBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 59px;
+    position: relative;
+    top:78vh;
+    flex-wrap: nowrap;
+    padding: 10px 20px;
+    background-color: cadetblue;
+    align-items: center;
+}
+.leftportion{
+    display: flex;
+}
+
+.emoji{
+    background-color: cadetblue;
+    width:40px;
+    height:40px;
+    border-radius: 100px solid white;
+}
+
+.emoji:nth-child(odd){
+ margin-right: 20px;
+}
+
+.inputbox{
+    width:400px;
+    background-color: cadetblue;
+    border-radius: 100px solid cadetblue;
+    height: 30px;
+}
