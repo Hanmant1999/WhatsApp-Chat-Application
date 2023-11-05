@@ -2,7 +2,7 @@ const webSocket = require("ws");
 const path = require("node:path");
 const express = require("express");
 const app = express();
-app.use("/",express.static(path.join(__dirname,"../build/")));
+app.use("/",express.static(path.join(__dirname,"../public/")));
 
 const server = app.listen(3000);
 
